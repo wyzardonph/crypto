@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hotpink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .crypto-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .crypto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
